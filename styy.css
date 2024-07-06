@@ -1,0 +1,114 @@
+
+.bg-secondary-custom {
+    background-color: hsl(208, 95%, 15%); 
+    color: #e07a0e; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container-custom {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #07ee39; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(1, 7, 73, 0.1);
+}
+.btn-custom {
+    background-color: #08033b; 
+    color: #f8f9fa; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #495057; 
+}
+.my-3-custom {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-5-custom {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.row-custom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.col-4-custom {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 10px;
+}
+
+.col-7-custom, .col-8-custom, .col-5-custom {
+    padding: 10px;
+}
+
+.col-7-custom {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+}
+
+.col-8-custom {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+.col-5-custom {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+}
+.text-light-custom {
+    color: #f8f9fa;
+}
+
+.text-dark-custom {
+    color: #03035c;
+}
+.h5-custom {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.candidate-img, .voter-img {
+    max-width: 50%;
+    height: 100px;
+    border-radius: 8px;
+}
+.vote-form {
+    display: flex;
+    flex-direction: column;
+}
+.btn-success-custom {
+    background-color: #28a745; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed; 
+}
+
+.btn-danger-custom {
+    background-color: #dc3545; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.status-voted {
+    color: #28a745; 
+    font-weight: bold;
+}
+
+.status-not-voted {
+    color: #dc3545; 
+    font-weight: bold;
+}
