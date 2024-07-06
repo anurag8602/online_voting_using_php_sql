@@ -80,25 +80,6 @@ To run this project locally, follow these steps:
 4. **Logout:**
     - Use the logout button to securely end your session.
 
-## Folder Structure
-
-├── actions/
-│ ├── connect.php
-│ ├── login.php
-│ ├── logout.php
-│ ├── register.php
-│ ├── voting.php
-├── database/
-│ ├── votingsystem.sql
-├── Partials/
-│ ├── registration.php
-├── uploads/
-│ ├── (uploaded files)
-├── styy.css
-├── index.php
-├── README.md
-
-
 ## Contributing
 
 Contributions are welcome! If you would like to contribute, please follow these steps:
